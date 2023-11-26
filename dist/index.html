@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>user-profile-demo</title>
+  <script src="__blocklet__.js"></script>
+
+  <meta charset="UTF-8" />
+  <link
+    rel="icon"
+    href="/src/assets//logo.png"
+  />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+  />
+  <meta
+    name="theme-color"
+    content="#4F6AF5"
+  />
+  
+  <link rel="stylesheet" href="/.blocklet/proxy/z2qa7TPwievNQfArKDkRXyncr1TfBsswq1ZF1/assets/index-b793a8b7.css">
+</head>
+
+<style>
+  /************************** Reset 样式类  酌情添加 ********************************************/
+  body,
+  ul,
+  form {
+    margin: 0;
+    padding: 0;
+  }
+
+  html,body {
+    width: 100%;
+    height: 100%;
+  }
+
+  a {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    text-decoration: none;
+    color: #000;
+  }
+
+  a img {
+    border: none;
+  }
+
+  table {
+    border-collapse: collapse;
+  }
+
+  hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    padding: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+  }
+
+  input {
+    border: 0;
+    /*清除自带的2px的边框*/
+    padding: 0;
+    /*清除自带的padding间距*/
+    outline: none;
+    /*清除input点击之后的黑色边框*/
+  }
+
+  input[type="number"]::-webkit-outer-spin-button,
+  input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
+
+  #app {
+    height: 100%;
+  }
+
+  /* input, select,textarea {vertical-align:middle/9;letter-spacing:1px;color:#555;}  */
+</style>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="app"><style>
+  body,
+  html,
+  #app {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  .spinner-wrapper {
+    width: 70px;
+    opacity: 0;
+    animation-name: fadeIn;
+    animation-duration: 500ms;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-delay: 500ms;
+    animation-fill-mode: forwards;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .spinner {
+    width: 70px;
+    text-align: center;
+  }
+
+  .spinner > div {
+    width: 18px;
+    height: 18px;
+    background-color: #8abaf0;
+
+    border-radius: 100%;
+    display: inline-block;
+    -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+    animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+  }
+
+  .spinner .bounce1 {
+    -webkit-animation-delay: -0.32s;
+    animation-delay: -0.32s;
+  }
+
+  .spinner .bounce2 {
+    -webkit-animation-delay: -0.16s;
+    animation-delay: -0.16s;
+  }
+
+  @-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+  @-webkit-keyframes sk-bouncedelay {
+    0%,
+    80%,
+    100% {
+      -webkit-transform: scale(0);
+    }
+    40% {
+      -webkit-transform: scale(1);
+    }
+  }
+
+  @keyframes sk-bouncedelay {
+    0%,
+    80%,
+    100% {
+      -webkit-transform: scale(0);
+      transform: scale(0);
+    }
+    40% {
+      -webkit-transform: scale(1);
+      transform: scale(1);
+    }
+  }
+  </style>
+  <div class="spinner-wrapper">
+    <img src="/.well-known/service/blocklet/logo?imageFilter=resize&w=80" width="70" height="70" style="margin-bottom: 16px" />
+    <div class="spinner">
+      <div class="bounce1"></div>
+      <div class="bounce2"></div>
+      <div class="bounce3"></div>
+    </div>
+  </div></div>
+  
+<script type="module" crossorigin src="/.blocklet/proxy/z2qa7TPwievNQfArKDkRXyncr1TfBsswq1ZF1/assets/index-99f7370d.js"></script></body>
+
+</html>

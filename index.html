@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link
+    rel="icon"
+    href="/src/assets//logo.png"
+  />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+  />
+  <meta
+    name="theme-color"
+    content="#4F6AF5"
+  />
+</head>
+
+<style>
+  /************************** Reset 样式类  酌情添加 ********************************************/
+  body,
+  ul,
+  form {
+    margin: 0;
+    padding: 0;
+  }
+
+  html,body {
+    width: 100%;
+    height: 100%;
+  }
+
+  a {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    text-decoration: none;
+    color: #000;
+  }
+
+  a img {
+    border: none;
+  }
+
+  table {
+    border-collapse: collapse;
+  }
+
+  hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    padding: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+  }
+
+  input {
+    border: 0;
+    /*清除自带的2px的边框*/
+    padding: 0;
+    /*清除自带的padding间距*/
+    outline: none;
+    /*清除input点击之后的黑色边框*/
+  }
+
+  input[type="number"]::-webkit-outer-spin-button,
+  input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
+
+  #app {
+    height: 100%;
+  }
+
+  /* input, select,textarea {vertical-align:middle/9;letter-spacing:1px;color:#555;}  */
+</style>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="app"></div>
+  <script
+    type="module"
+    src="/src/main.js"
+  ></script>
+</body>
+
+</html>
